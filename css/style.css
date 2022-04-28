@@ -1,0 +1,239 @@
+* {
+    font-size: 16px;
+}
+
+h1, h2, h3 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 400;
+}
+
+html, body {
+    height:100%;
+} 
+
+
+/* Header */
+.menu {
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+.sticky {
+    position: static;
+}
+h1.title {
+    font-size: 2rem;
+    line-height: 28px;
+    color: #FFFFFF;
+    display: inline-flex;
+    align-items: center;
+    padding-left: 16px;
+}
+.burger {
+    display:inline-flex;
+    align-items: flex-end;
+}
+.dsearch, li{
+    display: none;
+}
+
+@media only screen and (min-width: 500px) {
+    .burger {
+        display: none;
+    }
+    .dsearch, li{
+        display: inline-flex;
+        color: white;
+        align-items: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+/* Hero Section */
+ .hero {
+    display: flex;
+    background-image: url(../img/Hero_Image_Mobile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 90%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    font-weight: 900;
+ }
+ .head {
+    align-items: center;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 500;
+ }
+ .subhead {
+    font-size: 1.5rem;
+    font-weight: 400;
+ }
+
+ @media only screen and (min-width: 500px) {
+     .hero {
+        background-image: url(../img/Hero_Image.jpg);
+     }
+ }
+
+ /* Our Story */
+ .story {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .story img {
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (min-width: 500px) {
+    .story img {
+        height: 50%;
+        width: 50%;
+    }
+}
+
+ /* Articles */
+ .head {
+     justify-content: center;
+     padding: 3rem;
+ }
+ .articles {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    flex-direction: column;
+ }
+
+.art {
+
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.art h2 {
+    padding-top: 30px;
+}
+
+.art h2, p {
+    font-size: 2rem;
+}
+
+.image {
+     width: 100%;
+     height: auto;
+ }
+
+@media only screen and (min-width: 500px) {
+    .articles {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .art {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+}
+
+/* Footer */
+.foot {
+    background-color: #292929;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.rights {
+    background-color: #292929;
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    align-items: center;
+    text-align: center;   
+}
+.rights h2 {
+    font-size: 3rem;  
+}
+.rights h3 {
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+
+.newsletter {
+    padding-bottom: 3rem;
+}
+
+.newsletter h2 {
+    font-size: 3rem;  
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+}
+.newsletter p {
+    font-size: 2rem;  
+    padding-left: 1rem;
+}
+.newsletter label {
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+
+.about {
+    padding-bottom: 3rem;
+}
+.about h2 {
+    font-size: 3rem;  
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+}
+.about ul {
+    padding-left: 1rem;
+}
+.about a {
+    color: white;
+}
+
+.follow {
+    padding-bottom: 3rem;
+}
+.follow h2 {
+    font-size: 3rem;  
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+}
+.follow ul {
+    padding-left: 1rem;
+}
+.follow a {
+    color: white;
+}
+.foot li{
+    padding-bottom: 0.5rem;
+    text-align: start;
+    display: inline-block;
+    width: 100%
+}
+
+@media only screen and (min-width: 500px) {
+    .foot {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
