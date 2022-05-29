@@ -1,5 +1,5 @@
 # codecademy-oldcampflexbox
-Personal project on responsive design in Codecademy Front-End carrier path
+Personal project on responsive design in Codecademy Front-End Career Path
 
 Designed in Figma
 
